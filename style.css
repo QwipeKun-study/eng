@@ -1,0 +1,343 @@
+@media  screen and (min-width: 960px) {
+    
+}
+@media  screen and (min-width: 1440px) {
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+html,body{
+    height: 100%;
+}
+
+.page-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+body,h1{
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.main_page{
+    flex: 1 0 auto;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.position{
+    position: relative;
+}
+.header{
+    color: white;
+    background: url(./assets/gorod_vid_sverhu_doroga_131001_3840x2160.jpg);
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.bg-overlay{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    max-width: 2000px;
+    margin: 0 auto;
+} 
+
+.all_text{
+    text-align: center;
+}
+
+.header_title{
+    display: block;
+    font-size: 100px; 
+}
+
+.header_text{
+    display: block;
+    font-size: 30px;
+}
+
+.about_me{   
+    flex-grow: 0 1 1;
+    margin: 2%;
+    padding: 2%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 500px;
+    /*border: violet solid; */
+    background-color:#E6C7C2;
+}
+
+.about_me_photo img{
+    /*max-width: 50%;
+    min-width: 30%;*/
+    max-width: 400px;
+    height: 100%;
+    border: 2px solid transparent;
+    /* border-image: linear-gradient(#ff7347 , #7643ff); */
+    border: white solid;
+    border-image-slice: 1;
+
+}
+
+.text_fist{
+    padding: 4%;
+    align-self: flex-start;
+    max-width: 30%;
+    border: 2px white solid;
+    background-color: white;
+}
+
+/*.text_post{
+    align-self: flex-start;
+    max-width: 30%;
+    border: 2px rgb(0, 0, 0) solid;
+}*/
+
+.about_me_global{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0%;
+    background-color: black;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+
+.name{
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+.why_me{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0%;
+    background-color: black;
+    max-width: 2000px;
+    margin: 0 auto;
+
+}
+
+.blocks{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    padding: 2%; 
+    /* background-color: black; */
+    height: 250px %;
+}
+
+.blocks2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    padding: 2%; 
+    /* background-color: black; */
+    height: 250px;
+}
+
+.png_style{
+    color: white;
+    border: springgreen solid;
+}
+
+.design_block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.block_1{
+    padding: 40px;
+    margin: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(#cb47ff , #7643ff); 
+    border-image-slice: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.block_2{
+    padding: 40px;
+    margin: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(#ff475f , #7643ff);
+    border-image-slice: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.block_3{
+    padding: 40px;
+    margin: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(#ff7347 , #43ffff);
+    border-image-slice: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.png_1{
+    justify-content: center;
+    padding: 5px 5px 40px 5px ;
+    display: flex;
+    text-align: center;
+    max-width: 40%;
+    margin-left: 29%;
+}
+
+.reviews{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    max-width: 2000px;
+    margin: 1% auto;
+}
+
+.footer{
+    flex-shrink: 0;
+    display: flex;
+    margin-top: 3%;
+    height: 250px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    max-width: 2000px;
+    margin: 0 auto;
+
+}
+
+.bloks_rev{
+
+}
+
+.conteiner_rev{
+    display: flex;
+    flex-direction: column ;
+    /* border: brown solid; */
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews_elements img{
+    max-width: 90px;
+    min-width: 90px;
+    justify-content: center;
+    /* border: crimson solid;*/
+    float: left;
+}
+
+.reviews_elements {
+    /* border: rgb(42, 165, 89) solid; */
+    width: 550px;
+    padding: 10px;
+}
+
+.reviews__block {
+    max-width: 400px;
+    margin-left: auto;
+}
+
+.reviews__block_cool {
+    border: rgb(243, 76, 187) solid;
+}
+
+.reviews_block3{
+    /* border: rgb(237, 216, 100) solid;*/
+    max-width: 400px;
+    margin-left: auto;
+
+}
+
+/*.diplom_name{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    max-width: 2000px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    margin: auto;
+}*/
+
+.diplom_name{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    max-width: 2000px;
+    margin: 1% auto;
+}
+
+.block_diplom{
+    
+}
+
+.conteiner_diplom{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.diplom_elements{
+    max-width: 2000px;
+    padding: 2vh;
+}
+
+.diplom_elements_1 img{
+    width: 400px;
+}
+
+.diplom_elements_2 img{
+    width: 400px;
+}
+
+.diplom_elements_3 img{
+    width: 400px;
+}
+/*h1{  
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:5px dashed rgb(55, 0, 128); */
+    /*margin: auto;
+    text-shadow: black 3px 3px 4px;
+    position: absolute;
+    font-size: 100px; 
+}*/
+/*h2{  
+    margin-top: 480px;
+    margin-left: 500px;
+    position: absolute;
+    font-size: 20px;
+}*/
